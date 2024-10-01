@@ -12,10 +12,25 @@ body {
     margin-right: 6vw;
     margin-top: 4vh;
     height: 4vh;
-    position: fixed;
+    /* position: fixed; */
     width: 90vw;
     /* z-index: -1;
     position: relative; */
+
+}
+
+.navbarA {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 4vh;
+  height: 4vh;
+  position: fixed;
+  width: 90vw;
+  /* z-index: -1;
+  position: relative; */
 
 }
 
