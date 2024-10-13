@@ -434,10 +434,15 @@ img {
 
     .navbarA {
       background-color: #0f0f10;
+      gap:30vw;
+    }
+
+    #nav-text {
+      font-size: 2vh;
     }
 
     #wordmark {
-        max-width: 10vw;
+        max-width: 16vw;
     }
 
     #title {
@@ -520,7 +525,7 @@ img {
       }
 
       #big-contentA {
-        font-size: 1.8vh;
+        font-size: 2.2vh;
       }
 
       #big-content {
@@ -588,9 +593,6 @@ img {
 
     }
 
-    #nav-text {
-      font-size: 1.8vh;
-    }
 
     /* #titleyear {
       margin-left: 10vw ;
