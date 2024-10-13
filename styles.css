@@ -101,8 +101,8 @@ body {
   margin-left: 10vw;
   margin-top: 10vw;
   margin-right: 10vw;
+  padding-bottom: 20vh;
 }
-
 
 .page-divider {
   display: flex;
@@ -131,6 +131,7 @@ body {
   height: 100vh;
   left: 30%;
   position: relative;
+
 }
 
 #inline-arrow {
@@ -365,6 +366,12 @@ img {
     color: #3D3DF5;
 }
 
+#project-card-text-head:hover {
+
+  transition-duration: 0.5s;
+  color: #0f0f10;
+}
+
 .project-scroll {
     margin-top: 45vh;
 }
@@ -378,6 +385,13 @@ img {
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
+
+#embeds {
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  border-radius: 2vh;
+}
+
 
   /* #full {
     width: 100%;
