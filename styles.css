@@ -10,9 +10,6 @@ body {
 
   font-family:Departure Mono;
   src: url("Assets/General/DepartureMono-Regular.otf") format("opentype");
-  font-size: 5vh;
-  font-weight: 550;
-  color: #3D3DF5;
 
 }
 
@@ -28,7 +25,7 @@ body {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10vh;
+  margin-top: 14vh;
 
   position: relative;
 }
@@ -124,8 +121,7 @@ body {
 
 #title {
     font-family: Departure Mono;
-    src: url("Assets/General/DepartureMono-Regular.otf") format("opentype");
-    font-size: 5vh;
+    font-size: 4.5vh;
     font-weight: 550;
     color: #3D3DF5;
 }
@@ -344,7 +340,7 @@ body {
   }
 
   #big-content {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
     font-weight: 400;
     line-height: 130%;
     color: #767676;
