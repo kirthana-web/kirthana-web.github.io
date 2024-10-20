@@ -3,12 +3,51 @@ body {
     font-family: Manrope;
     margin: 0;
     overflow-x: hidden;
+    cursor:url(Assets/General/Scursor.svg), auto;
 
-    /* background-color: rgb(235, 235, 235);
+    /* background-color: #efefef;
     background-image: linear-gradient(hsla(0, 0%, 86%, 0.5) 0.3px, transparent 0.1vh),
                       linear-gradient(90deg, hsla(0, 0%, 86%, 0.5) 0.3px, transparent 0.1vh);
-    background-size: 3vh 3vh; */
+    background-size: 3vh 3vh;
+} */
+
+.pickcard {
+  display: flex;
+  flex-direction: row;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+
+  position: relative;
 }
+
+#pickcard-child {
+
+
+}
+
+#pickcard-img {
+
+  width: 7vw;
+  opacity: 100%;
+  position: relative;
+  margin-left: -2vw; 
+  z-index: 1; 
+  transition: transform 0.3s ease, z-index 0.3s ease, opacity 0.3s ease;
+
+}
+
+#pickcard-img:hover {
+  /* z-index: 10; */
+  opacity: 100%;
+  transform: translateY(-10px);
+
+}
+
+
+
+
 
 .navbar {
     display: flex;
@@ -66,13 +105,14 @@ body {
 }
 
 .hero {
-    margin-top: 35vh;
+    margin-top: 25vh;
     margin-left: 20vw;
     margin-right: 20vw;
     text-align: center;
 }
 
 #title {
+  font-family: Departure Mono;
     font-size: 5vh;
     font-weight: 550;
     color: #3D3DF5;
@@ -359,6 +399,7 @@ body {
 img {
   width: 35vw;
   height: auto;
+  border-radius: 1vw;
 }
 
 #project-img {
