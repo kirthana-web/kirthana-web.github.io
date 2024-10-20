@@ -1,6 +1,6 @@
 body {
     background-color: #efefef;
-    font-family: Satoshi;
+    font-family: Manrope;
     margin: 0;
     overflow-x: hidden;
 
@@ -19,7 +19,7 @@ body {
     margin-top: 4vh;
     height: 4vh;
     /* position: fixed; */
-    width: 90vw;
+    width: 86vw;
     /* z-index: -1;
     position: relative; */
 
@@ -74,7 +74,7 @@ body {
 
 #title {
     font-size: 5vh;
-    font-weight: 450;
+    font-weight: 550;
     color: #3D3DF5;
 }
 
@@ -82,13 +82,14 @@ body {
   font-size: 6vh;
   font-weight: 500;
   color: #e6e5ed;
-  max-width: 6vw;
+  max-width: 12vw;
 }
 
 #titleA {
   font-size: 3.5vh;
   font-weight: 500;
   color: #0f0f10;
+  padding-top: 4vh;
 }
 
 #left-content {
@@ -160,9 +161,31 @@ body {
   font-size: 2vh;
   font-weight: 450;
   color: #e6e5ed; 
+  max-width: 10vw;
+}
+
+#cap-contentB {
+  font-size: 2vh;
+  font-weight: 450;
+  color: #0f0f10 
+  max-width: 10vw;
 }
 
 
+#navfb {
+  text-align: center;
+  padding: 4vw;
+}
+
+#link {
+  text-decoration: none;
+  color: #767676;
+  font-size: 2.4vh;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
 
 
 /* .nudge-nav {
@@ -276,17 +299,26 @@ body {
   }
 
   #big-contentA {
-    font-size: 2.2vh;
+    font-size: 2.5vh;
     font-weight: 400;
     line-height: 130%;
     color: #767676;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+  }
+
+  #big-contentC {
+    font-size: 2.5vh;
+    font-weight: 500;
+    line-height: 130%;
+    color: #0f0f10;
   }
 
   #av-content {
     margin-right: 10vw;
     max-width: 40vw;
     border-radius: 0.5vw;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
     margin-top: 5vh;
   }
 
@@ -337,6 +369,21 @@ img {
   margin-bottom: 2vh;
 }
 
+#project-imgWS {
+  width: 40vw;
+  height: auto;
+  border-radius: 0.5vw;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+}
+
+#key-flex-card {
+  background-color: #bcbcbc23;
+  padding-left: 2vh;
+  padding-bottom: 1vh;
+  padding-top: 0.1VH;
+  border-radius: 1vh;
+}
 
 
 #project-card {
@@ -502,6 +549,7 @@ img {
       #title-content {
         margin-top: 13vh;
         font-size: 5vh;
+        max-width: 50vw;
       }
 
       
@@ -526,11 +574,13 @@ img {
       }
 
       #cap-content {
+        max-width: 50vw;
   
       }
 
       #big-contentA {
         font-size: 2.2vh;
+
       }
 
       #big-content {
