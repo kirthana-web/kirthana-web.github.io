@@ -5,6 +5,17 @@ body {
     overflow-x: hidden;
     cursor:url(Assets/General/Scursor.svg), auto;
 
+
+@font-face {
+
+  font-family:Departure Mono;
+  src: url("Assets/General/DepartureMono-Regular.otf") format("opentype");
+  font-size: 5vh;
+  font-weight: 550;
+  color: #3D3DF5;
+
+}
+
     /* background-color: #efefef;
     background-image: linear-gradient(hsla(0, 0%, 86%, 0.5) 0.3px, transparent 0.1vh),
                       linear-gradient(90deg, hsla(0, 0%, 86%, 0.5) 0.3px, transparent 0.1vh);
