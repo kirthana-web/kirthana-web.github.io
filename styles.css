@@ -7,11 +7,9 @@ body {
 
 
     @font-face {
-      font-family: 'DepartureMono-Regular';
+      font-family: 'Departure Mono';
       src: url('Assets/General/DepartureMono-Regular.woff2') format('woff2'),
            url('Assets/General/DepartureMono-Regular.woff') format('woff'),
-           url('DepartureMono-Regular.woff2') format('woff2'),
-           url('Assets/DepartureMono-Regular.woff') format('woff'),
            url('Assets/General/DepartureMono-Regular.otf') format('opentype');
       font-weight: normal;
       font-style: normal;
@@ -127,7 +125,6 @@ body {
 #title {
     font-family: 'Departure Mono';
     font-size: 4.5vh;
-    font-weight: 550;
     color: #3D3DF5;
 }
 
