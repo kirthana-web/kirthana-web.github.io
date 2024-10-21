@@ -10,7 +10,7 @@ body {
       font-family: 'DepartureMono-Regular';
       src: url('Assets/General/DepartureMono-Regular.woff2') format('woff2'),
            url('Assets/General/DepartureMono-Regular.woff') format('woff'),
-           url('Assets/DepartureMono-Regular.woff2') format('woff2'),
+           url('DepartureMono-Regular.woff2') format('woff2'),
            url('Assets/DepartureMono-Regular.woff') format('woff'),
            url('Assets/General/DepartureMono-Regular.otf') format('opentype');
       font-weight: normal;
