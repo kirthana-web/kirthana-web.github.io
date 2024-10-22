@@ -3,7 +3,7 @@ body {
     font-family: Manrope;
     margin: 0;
     overflow-x: hidden;
-    cursor:url(Assets/General/Scursor.svg), auto;
+    /* cursor:url(Assets/General/Scursor.svg), auto; */
 
 
     @font-face {
@@ -464,6 +464,7 @@ img {
     font-size: 6vh;
     font-weight: 400;
     color: #3D3DF5;
+    margin-bottom: 2vh;
 }
 
 #project-card-text-head:hover {
