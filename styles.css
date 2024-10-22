@@ -121,9 +121,9 @@ body {
 }
 
 #title {
-    font-family: 'Departure Mono';
+    font-family: 'Apple Garamond Light';
     font-weight: 450;
-    font-size: 4.5vh;
+    font-size: 6.5vh;
     color: #3D3DF5;
 }
 
@@ -549,7 +549,7 @@ img {
     #title {
 
         font-size: 3vh;
-        font-family: Departure Mono;
+        font-family: 'Apple Garamond Light';
         font-weight: 450;
         color: #3D3DF5;
     }
