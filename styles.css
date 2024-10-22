@@ -8,9 +8,9 @@ body {
 
     @font-face {
       font-family: Departure Mono;
-      src: url('Assets/General/DepartureMono-Regular.woff2') format('woff2'),
-           url('Assets/General/DepartureMono-Regular.woff') format('woff'),
-           url('Assets/General/DepartureMono-Regular.otf') format('opentype');
+      src: url('/Assets/General/DepartureMono-Regular.woff2') format('woff2'),
+           url('/Assets/General/DepartureMono-Regular.woff') format('woff'),
+           url('/Assets/General/DepartureMono-Regular.otf') format('opentype');
       font-weight: normal;
       font-style: normal;
     }
