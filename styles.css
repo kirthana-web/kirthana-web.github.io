@@ -124,6 +124,7 @@ body {
 
 #title {
     font-family: 'Departure Mono';
+    font-weight: 450;
     font-size: 4.5vh;
     color: #3D3DF5;
 }
@@ -548,7 +549,9 @@ img {
     }
 
     #title {
+
         font-size: 3vh;
+        font-family: Departure Mono;
         font-weight: 450;
         color: #3D3DF5;
     }
