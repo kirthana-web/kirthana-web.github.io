@@ -413,6 +413,10 @@ img {
   border-radius: 1vw;
 }
 
+li {
+  margin-bottom: 4vh;
+}
+
 #project-img {
   width: 40vw;
   height: auto;
